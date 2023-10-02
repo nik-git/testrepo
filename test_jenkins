@@ -1,1 +1,10 @@
-test_jenkins
+pipeline {
+    agent any 
+    stages {
+        stage('Stage 1') {
+            steps {
+                echo 'Nikhil Hello world!' 
+            }
+        }
+    }
+}
